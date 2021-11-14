@@ -1,0 +1,25 @@
+.uploadpost {
+    display: flex;
+    flex-direction: column;
+    margin: 7px;
+    padding: 0px 20%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.uploadpost > input {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+
+.uploadpost_caption {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 15px !important;
+}
+
+.uploadpost_progress {
+    width: 100%;
+    padding: 15px;
+}

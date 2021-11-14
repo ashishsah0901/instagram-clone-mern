@@ -1,0 +1,30 @@
+.app {
+    background-color: #fafafa;
+}
+
+.app_signUp {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.app_posts {
+    padding: 10px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.app_signUp > .MuiInput-root {
+    margin: 20px;
+}
+
+.MuiBox-root {
+    border-radius: 10px;
+    border: 2px solid lightgray !important;
+}
+
+.app_loginToPost {
+    text-align: center;
+    margin-top: 10px;
+}
